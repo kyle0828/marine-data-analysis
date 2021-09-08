@@ -17,3 +17,14 @@ After data cleansing:
 
 #### Visualization using **Tableau**
 [Link to the VIS](https://public.tableau.com/views/pretest-dashboard/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
+
+- **Create Group** on "Load Week" column to turn weeks into seasons,
+  - Week 0-12  => Spring
+  - Week 13-26 => Summer
+  - Week 27-40 => Fall
+  - Week 41-53 => Winter
+
+- In the chart of Busiest Ship, a filter is applied,
+  - only ships with above 500 total duration days in the selected year is displayed.
+
+![png](img/filter.png)
